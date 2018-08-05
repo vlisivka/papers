@@ -1,0 +1,53 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% writeLaTeX Example: Academic Paper Template
+%
+% Source: http://www.writelatex.com
+% 
+% Feel free to distribute this example, but please keep the referral
+% to writelatex.com
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[twocolumn,showpacs,%
+  nofootinbib,aps,superscriptaddress,%
+  eqsecnum,prd,notitlepage,showkeys,10pt]{revtex4-1}
+
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{dcolumn}
+\usepackage{hyperref}
+
+\begin{document}
+
+\title{Origin of Jupiter Great Red Spot}
+\author{Volodymyr M. Lisivka}
+\affiliation{PhD at Lviv Polythechnik State University}
+
+\begin{abstract}
+Idea about origin of Jupiter Great Red Spot.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}
+
+This idea is based on photos of North and South poles of Jupiter made by NASA’s Juno spacecraft.
+
+\section{Origin of Jupiter Giant Red Spot}
+\label{sec:origin}
+
+\subsection{Observations}
+
+From photo of Jupiter's North Pole, we can see that it contains 9 cyclones and anticyclones, with one large cyclone in the middle, and 8 cyclones and anticyclones around it. At photo of Jupiter's South pole, we see only 6 cyclones and anticyclones, with central anticyclone much weaker than at North pole.
+
+\subsection{Idea}
+
+Idea, proposed by author of this paper first at https://news.ycombinator.com/item?id=16558143, is that central anticyclone from South pole was merged with two side cyclones, skewed, and then escaped South pole, so it known as Giant Red Spot now.
+
+\begin{acknowledgments}
+
+I thank NASA for their Juno spacecraft mission and their photos, which they released for free.
+
+\end{acknowledgments}
+
+\end{document}
